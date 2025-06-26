@@ -1,6 +1,5 @@
-import LoginScreen from "@/screens/auth/LoginScreen";
+import LoginScreen from '@/screens/auth/LoginScreen';
 
-type Props = {};
-export default function LoginPage({}: Props) {
+export default function LoginPage() {
   return <LoginScreen />;
 }

@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 // import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GreatFrontEnd",
-  description: "Practice GreatFrontEnd with Atomic Habits",
+  title: 'GreatFrontEnd',
+  description: 'Practice GreatFrontEnd with Atomic Habits',
 };
 
 export default function RootLayout({
@@ -13,9 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

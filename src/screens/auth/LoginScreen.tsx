@@ -1,8 +1,5 @@
-'use client'
+'use client';
 
-type Props = {}
-export default function LoginScreen({}: Props) {
-  return (
-    <div>LoginScreen</div>
-  )
+export default function LoginScreen() {
+  return <div>LoginScreen</div>;
 }
